@@ -1,0 +1,105 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+}
+
+.title{
+  display:flex;
+  margin-top: 50px;
+  color: #4C4C4C;
+  font-size: 4.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__secondary{
+  display:flex;
+  margin-left: 10px;
+  color: #F69230;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 75vh;
+ padding: 15px;
+}
+
+.calculator {
+  display:flex;
+  flex-direction:column;
+  width: 400px;
+  height: 600px;
+  border: 0.5px solid gray; 
+  font-size: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 10px #d0d0d1;
+  
+}
+
+.calculator-display {
+  padding: 25px 15px;
+  width: 100%;
+  height: 150px;
+  text-align: right;
+  color: #ffffff;
+  background-color:#4C4C4C;
+  overflow-x: auto;
+  font-size: 5rem;
+
+}
+
+
+.calculator-keypad {
+  display:flex;
+  width: 100%;
+
+  
+}
+
+.keypad-numbers {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #4C4C4C;
+  
+}
+
+.keypad-button {
+  width: 25%;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  background-color: #E1E1E1;
+  border: 0.2px solid #8f8f8ffe;
+  height: 90px;
+}
+
+.keypad-button:hover {
+  filter: brightness(80%);
+  transition: filter.25s;
+}
+
+.keypad-button.orange {
+ background-color: #F69230;
+ color: #FFFFFF;
+}
+
+.keypad-button.large {
+  width: 50%;
+}
+
+ 
